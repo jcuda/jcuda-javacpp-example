@@ -1,0 +1,26 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.jcuda</groupId>
+    <artifactId>jcuda-javacpp-example</artifactId>
+    <version>0.0.1</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jcuda</groupId>
+            <artifactId>jcuda</artifactId>
+            <version>10.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>cuda-platform</artifactId>
+            <version>10.1-7.6-1.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>cuda-platform-redist</artifactId>
+            <version>10.1-7.6-1.5.2</version>
+        </dependency>
+    </dependencies>
+    
+</project>
